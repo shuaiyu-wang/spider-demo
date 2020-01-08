@@ -32,5 +32,8 @@ public class TestJson {
 //		String a = null;
 //		js.put("a", a);
 //		System.out.println(js.toString());
+		
+		JSONArray ja = JSON.parseArray("");
+		ja.get(0).toString().concat("参数错误");
 	}
 }

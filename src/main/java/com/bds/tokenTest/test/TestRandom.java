@@ -2,21 +2,21 @@ package com.bds.tokenTest.test;
 
 import java.util.Random;
 
-public class Testrandom {
+public class TestRandom {
 	
 	private String name;
 	
 	private Integer id;
 	
 	
-	public Testrandom(String name, Integer id) {
+	public TestRandom(String name, Integer id) {
 		super();
 		this.name = name;
 		this.id = id;
 	}
 
 
-	public Testrandom(String name) {
+	public TestRandom(String name) {
 		super();
 		this.name = name;
 	}
@@ -25,12 +25,14 @@ public class Testrandom {
 	public static void main(String[] args) {
 //		System.out.println(Math.random()*10);
 //		System.out.println(getResult("120.0913701",13));
-		Random r = new Random();
-		for (int i = 0; i < 10; i++) {
-			
-			int node = r.nextInt(5);
-			System.out.println(node);
-		}
+//		Random r = new Random();
+//		for (int i = 0; i < 10; i++) {
+//			
+//			int node = r.nextInt(5);
+//			System.out.println(node);
+//		}
+		String s = String.valueOf((int) (Math.random()*90+10));
+		System.out.println(s);
 	}
 	
 //	public static String getResult(String LatLngStr,int needLength){
