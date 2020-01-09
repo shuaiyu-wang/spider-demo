@@ -21,8 +21,13 @@ public class Jsoup {
 			for (Element e : es) {
 				Elements ee = e.select("td");
 				//定义参数
+				//<tr id="pair_277"> 
 				String id = e.attr("id");
-				System.out.println(".................."+id);
+				System.out.println("id.................."+id);
+				//<span title="美国" class="ceFlags USA">
+				System.out.println("title.................."+ee.get(0).select("span").attr("title"));
+				//<a href="/equities/3m-co" title="3M公司">
+				System.out.println("href.................."+ee.get(1).select("a").attr("href"));
 				System.out.println(ee.get(1).text());
 				System.out.println(ee.get(2).text());
 				System.out.println(ee.get(3).text());
