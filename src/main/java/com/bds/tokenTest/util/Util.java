@@ -3,6 +3,7 @@ package com.bds.tokenTest.util;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -306,5 +307,16 @@ public class Util {
 
 		return date.after(begin);
     }
+	
+	public static String read(String filename) throws Exception {
+        File file = new File(filename);
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+        String strLine = null;
+        StringBuffer sb = new StringBuffer();
+        while(null != (strLine = bufferedReader.readLine())){
+        	sb.append(strLine);
+        }
+        return sb.toString();
+	}
 	
 }
