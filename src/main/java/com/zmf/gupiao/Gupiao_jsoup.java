@@ -8,7 +8,7 @@ import org.jsoup.select.Elements;
 
 import com.bds.tokenTest.util.Util;
 
-public class Jsoup {
+public class Gupiao_jsoup {
 	public static void main(String[] args) {
 		try {
 			String dir = System.getProperty("user.dir") + File.separator;

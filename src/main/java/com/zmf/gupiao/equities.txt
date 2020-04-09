@@ -1,0 +1,211 @@
+<html>
+ <head></head>
+ <body>
+  <table class="genTbl reportTbl"> 
+   <tbody>
+    <tr class="alignBottom" id="header_row"> 
+     <th><span class="lightgrayFont arial_11 noBold">截止:</span></th> 
+     <th><span class="bold">2018</span>
+      <div class="noBold arial_11">
+       31/12
+      </div></th> 
+     <th><span class="bold">2017</span>
+      <div class="noBold arial_11">
+       31/12
+      </div></th> 
+     <th><span class="bold">2016</span>
+      <div class="noBold arial_11">
+       31/12
+      </div></th> 
+     <th><span class="bold">2015</span>
+      <div class="noBold arial_11">
+       31/12
+      </div></th> 
+    </tr> 
+    <tr class="secondRow" id="cas_added_row"> 
+     <th><span class="arial_11 noBold lightgrayFont">周期长度:</span></th> 
+     <th><span class="noBold lightgrayFont">12 个月</span></th> 
+     <th><span class="noBold lightgrayFont">12 个月</span></th> 
+     <th><span class="noBold lightgrayFont">12 个月</span></th> 
+     <th><span class="noBold lightgrayFont">12 个月</span></th> 
+    </tr>  
+   </tbody>
+   <tbody> 
+    <tr> 
+     <td><span class=" bold">净收益/起点</span></td> 
+     <td>16039</td> 
+     <td>30550</td> 
+     <td>13608</td> 
+     <td>18375</td> 
+    </tr> 
+    <tr class="openTr pointer" id="parentTr"> 
+     <td><span class=" bold">来自经营活动的现金<span class="dropDownArrowLightGray"></span></span></td> 
+     <td>34339</td> 
+     <td>24318</td> 
+     <td>22810</td> 
+     <td>38930</td> 
+    </tr>
+    <tr class="noHover" id="childTr">
+     <td colspan="5" class="innerTD">
+      <div>
+       <table class="genTbl reportTbl">
+        <tbody> 
+         <tr class="child"> 
+          <td><span class="">折旧/递耗</span></td> 
+          <td>17403</td> 
+          <td>16954</td> 
+          <td>15928</td> 
+          <td>16017</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">摊销</span></td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">递延税</span></td> 
+          <td>389</td> 
+          <td>-14463</td> 
+          <td>-1063</td> 
+          <td>3516</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">非现金项目</span></td> 
+          <td>3145</td> 
+          <td>-50</td> 
+          <td>-27</td> 
+          <td>-10</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">现金收入</span></td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">现金支出</span></td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">现金税金支出</span></td> 
+          <td>2213</td> 
+          <td>4432</td> 
+          <td>9577</td> 
+          <td>5293</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">现金利息支出</span></td> 
+          <td>4408</td> 
+          <td>4369</td> 
+          <td>4085</td> 
+          <td>4491</td> 
+         </tr> 
+         <tr class="child last"> 
+          <td><span class="">营运资金变动</span></td> 
+          <td>-2637</td> 
+          <td>-8673</td> 
+          <td>-5636</td> 
+          <td>1032</td> 
+         </tr>
+        </tbody>
+       </table>
+      </div></td>
+    </tr> 
+    <tr class="openTr pointer" id="parentTr"> 
+     <td><span class=" bold">来自投资活动的现金<span class="dropDownArrowLightGray"></span></span></td> 
+     <td>-17934</td> 
+     <td>-18456</td> 
+     <td>-10983</td> 
+     <td>-30043</td> 
+    </tr>
+    <tr class="noHover" id="childTr">
+     <td colspan="5" class="innerTD">
+      <div>
+       <table class="genTbl reportTbl">
+        <tbody> 
+         <tr class="child"> 
+          <td><span class="">资本支出</span></td> 
+          <td>-18087</td> 
+          <td>-17830</td> 
+          <td>-17593</td> 
+          <td>-27717</td> 
+         </tr> 
+         <tr class="child last"> 
+          <td><span class="">其他投资现金流项目合计</span></td> 
+          <td>153</td> 
+          <td>-626</td> 
+          <td>6610</td> 
+          <td>-2326</td> 
+         </tr>
+        </tbody>
+       </table>
+      </div></td>
+    </tr> 
+    <tr class="openTr pointer" id="parentTr"> 
+     <td><span class=" bold">来自融资活动的现金<span class="dropDownArrowLightGray"></span></span></td> 
+     <td>-15377</td> 
+     <td>-6151</td> 
+     <td>-13417</td> 
+     <td>-15015</td> 
+    </tr>
+    <tr class="noHover" id="childTr">
+     <td colspan="5" class="innerTD">
+      <div>
+       <table class="genTbl reportTbl">
+        <tbody> 
+         <tr class="child"> 
+          <td><span class="">融资现金流项目</span></td> 
+          <td>-893</td> 
+          <td>-670</td> 
+          <td>-2797</td> 
+          <td>1634</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">发放现金红利合计</span></td> 
+          <td>-9772</td> 
+          <td>-9472</td> 
+          <td>-9262</td> 
+          <td>-8538</td> 
+         </tr> 
+         <tr class="child"> 
+          <td><span class="">股票发行（赎回）净额</span></td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-</td> 
+          <td>-5094</td> 
+         </tr> 
+         <tr class="child last"> 
+          <td><span class="">债务发行（赎回）净额</span></td> 
+          <td>-4712</td> 
+          <td>3991</td> 
+          <td>-1358</td> 
+          <td>-3017</td> 
+         </tr>
+        </tbody>
+       </table>
+      </div></td>
+    </tr> 
+    <tr> 
+     <td><span class="">外汇影响</span></td> 
+     <td>-</td> 
+     <td>-</td> 
+     <td>-</td> 
+     <td>-</td> 
+    </tr> 
+    <tr> 
+     <td><span class=" bold">现金变动净额</span></td> 
+     <td>1028</td> 
+     <td>-289</td> 
+     <td>-1590</td> 
+     <td>-6128</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body>
+</html>
