@@ -1,4 +1,4 @@
-package com.zmf.mouseMoney;
+package com.zmf.mouse_money;
 
 import java.util.Random;
 

@@ -1,7 +1,10 @@
 package com.bds.tokenTest.test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -37,6 +40,9 @@ public class MapTest {
 		System.out.println(set);
 		System.out.println(headermap.toString());
 		
+		Map<String, String> map1 = new Hashtable<String, String>();
+		map1.put(null, null);
+		List<String> list = new ArrayList<String>();
 
 	}
 	
