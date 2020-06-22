@@ -1,1 +1,1 @@
-### web or app spider demo
+### web and app spider demo
